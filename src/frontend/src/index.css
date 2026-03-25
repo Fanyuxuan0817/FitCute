@@ -1,0 +1,33 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Mali:wght@400;500;600;700&family=ZCOOL+KuaiLe&family=Inter:wght@400;500;600;700&family=Public+Sans:wght@400;600;700&display=swap');
+
+@theme {
+  --font-sans: "Fredoka", "Mali", "ZCOOL KuaiLe", ui-sans-serif, system-ui, sans-serif;
+  --font-brand: "ZCOOL KuaiLe", cursive;
+  --font-headline: "Public Sans", sans-serif;
+
+  --color-primary: #695a64;
+  --color-primary-container: #fce7f3;
+  --color-on-primary-container: #766670;
+  --color-secondary-container: #d3e5f1;
+  --color-tertiary-container: #d4f4df;
+  --color-surface-container: #efedf1;
+  --color-surface-container-low: #f5f3f7;
+  --color-surface-container-lowest: #ffffff;
+}
+
+@layer base {
+  body {
+    @apply bg-[#faf9fc] text-[#1b1b1e] font-sans;
+  }
+}
+
+.soft-pink-shadow {
+  box-shadow: 0 10px 40px -10px rgba(252, 231, 243, 0.6);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}

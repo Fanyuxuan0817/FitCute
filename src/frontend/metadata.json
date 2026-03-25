@@ -1,0 +1,7 @@
+{
+  "name": "FitCute!",
+  "description": "A cute and smart fitness assistant that helps you track your workouts, diet, and progress with AI-powered insights.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
